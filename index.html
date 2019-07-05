@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="path/to/image.jpg">
+	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
 	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
@@ -23,7 +23,6 @@
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 </head>
 
@@ -39,25 +38,27 @@
 						</div>
 					</a>
 					<ul class="menu d-flex">
-						<li><a href="#">Why VPN?</a></li>
-						<li><a href="#">Benefits</a></li>
-						<li><a href="#">Pricing</a></li>
+						<li><a href="#why">Why VPN?</a></li>
+						<li><a href="#benefits">Benefits</a></li>
+						<li><a href="#pricing">Pricing</a></li>
 					</ul>
 				</div>
 				<div class="header_right d-flex">
-					<img src="img/language.svg" alt="planet">
+<!--					<img src="img/language.svg" alt="planet">
 					<div class="select-wrapper">
 						<div class="select-arrow-3"></div>
 	    				<div class="select-arrow-3"></div>
 						<select name="language" id="">
 							<option value="english">English</option>
 							<option value="russian">Russian</option>
-						</select>
+						</select> 
 					</div>
-					<div class="vertical-line"></div>
+					<div class="vertical-line"></div> -->
 					<div class="header__buttons d-flex">
 						<a href="https://me.yetvpn.com/" class="login">Login</a>
-						<form method="get" action="https://me.yetvpn.com/singup"><button class="main_button" style="font-size: 13px">Get Started</button></form>
+						<form method="get" action="https://me.yetvpn.com/signup">
+							<button class="main_button" style="font-size: 13px">Get Started</button>
+						</form>
 					</div>
 					<div class="burger_icon mob">
 						<span></span>
@@ -69,9 +70,10 @@
 		</div>
 		<div class="burger_menu">
 			<ul class="mob-menu">
-				<li><a href="#">Why VPN?</a></li>
-				<li><a href="#">Benefits</a></li>
-				<li><a href="#">Pricing</a></li>
+				<li><a href="https://me.yetvpn.com/">Login</a></li>
+				<li><a href="#why">Why VPN?</a></li>
+				<li><a href="#benefits">Benefits</a></li>
+				<li><a href="#pricing">Pricing</a></li>
 			</ul>
 		</div>
 	</header>
@@ -91,7 +93,7 @@
 				</li>
 				<li>
 					<img src="img/cheap.svg" alt="">
-					<p>Starts as low as <b>$8/mo</b></p>
+					<p>Starts as low as <b>$6,95/month</b></p>
 				</li>
 				<li>
 					<img src="img/worldwide.svg" alt="">
@@ -107,12 +109,12 @@
 
 	<!--  -->
 
-	<div class="screen_2">
+	<div class="screen_2" id="why">
 		<div class="container d-flex">
 			<div class="screen2__left">
 				<div class="red-line"></div>
 				<h2>
-					Why do you need <br>	
+					Why do you need <br>
 					a fast & secure VPN?
 				</h2>
 			</div>		
@@ -175,7 +177,7 @@
 
 	
 
-	<div class="screen_4">
+	<div class="screen_4" id="benefits">
 		<div class="screen_4_1">
 			<div class="container j-space-between">
 				<div class="screen_4__left">
@@ -282,7 +284,7 @@
 		</div>
 		<div class="screen_5">
 			<div class="container">
-				<div class="screen_5__header text-center">
+				<div class="screen_5__header text-center" id="pricing">
 					<div class="red-line"></div>
 					<h2>Get started with YetVPN!</h2>
 				</div>	
@@ -295,7 +297,7 @@
 							<div class="price_wrap">
 								<p class="dollar">$</p>
 								<p class="price">11.95</p>
-								<p class="mo">/mo</p>
+								<p class="mo" style="font-size:12px;">/month</p>
 							</div>
 							<div class="description">
 								<div class="up_desc">
@@ -307,7 +309,9 @@
 									</div>
 								</div>
 								<div class="down_desc">
-									<button class="main_button">Get Started Now</button>
+									<form method="get" action="https://me.yetvpn.com/signup">
+										<button class="main_button">Get Started Now</button>
+									</form>
 								</div>
 								
 							</div>
@@ -315,37 +319,7 @@
 					</div>
 					<div class="main-card">
 						<div class="discount text-center">
-							SAVE 17%
-						</div>
-						<div class="card_info_wrap">
-							<div class="plan_info text-center">
-								6 - months plan
-							</div>
-							<div class="price_wrap">
-								<p class="dollar">$</p>
-								<p class="price">9.95</p>
-								<p class="mo">/mo</p>
-							</div>
-							<div class="description">
-								<div class="up_desc">
-									<div class="old_new_price">
-										<p class="line-through">71.70$ </p> 
-										<p>59.70$</p>
-									</div>
-									<div class="small_desc">
-										<p>prepaid every 6 months</p>
-									</div>
-								</div>
-								<div class="down_desc">
-									<button class="main_button">Get Started Now</button>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="discount text-center">
-							SAVE 31%
+							SAVE 42%
 						</div>
 						<div class="card_info_wrap">
 							<div class="plan_info text-center">
@@ -353,21 +327,55 @@
 							</div>
 							<div class="price_wrap">
 								<p class="dollar">$</p>
-								<p class="price">8.20</p>
-								<p class="mo">/mo</p>
+								<p class="price">6.95</p>
+								<p class="mo" style="font-size:12px;">/month</p>
 							</div>
 							<div class="description">
 								<div class="up_desc">
 									<div class="old_new_price">
-										<p class="line-through">143.40$</p>
-										<p>98.40$</p>
+										<p class="line-through">143.40$ </p> 
+										<p>83.40$</p>
 									</div>
 									<div class="small_desc">
 										<p>prepaid every 12 months</p>
 									</div>
 								</div>
 								<div class="down_desc">
-									<button class="main_button">Get Started Now</button>
+									<form method="get" action="https://me.yetvpn.com/signup">
+										<button class="main_button">Get Started Now</button>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="discount text-center">
+							SAVE 25%
+						</div>
+						<div class="card_info_wrap">
+							<div class="plan_info text-center">
+								6 - months plan
+							</div>
+							<div class="price_wrap">
+								<p class="dollar">$</p>
+								<p class="price">8.95</p>
+								<p class="mo" style="font-size:12px;">/month</p>
+							</div>
+							<div class="description">
+								<div class="up_desc">
+									<div class="old_new_price">
+										<p class="line-through">71.70$</p>
+										<p>53.70$</p>
+									</div>
+									<div class="small_desc">
+										<p>prepaid every 6 months</p>
+									</div>
+								</div>
+								<div class="down_desc">
+									<form method="get" action="https://me.yetvpn.com/signup">
+										<button class="main_button">Get Started Now</button>
+									</form>
 								</div>
 								
 							</div>
@@ -389,20 +397,14 @@
 			<div class="footer_left">
 				<ul>
 					<li>
-						<a href="Privacy_Policy.html">
+						<a href="/Privacy_Policy.html">
 							Privacy Policy
 						</a>
 					</li>
 					<li>
 						<div class="separator">•</div>
-						<a href="Terms_of_Services.html">
+						<a href="/Terms_of_Services.html">
 							Terms of Services
-						</a>
-					</li>
-					<li>
-						<div class="separator">•</div>
-						<a href="#">
-							Acceptable Usage Policy
 						</a>
 					</li>
 				</ul>
